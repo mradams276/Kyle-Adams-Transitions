@@ -45,12 +45,33 @@
                     <view key="view" contentMode="scaleToFill" id="erk-VJ-ld3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="creep" translatesAutoresizingMaskIntoConstraints="NO" id="Nea-6L-dQV">
+                                <rect key="frame" x="90" y="68" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="103" y="91" width="240" height="128"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="atd-xk-Ou3">
+                                <rect key="frame" x="90" y="368" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="103" y="408" width="240" height="128"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="bottomImage" destination="atd-xk-Ou3" id="jrd-nx-9Hk"/>
+                        <outlet property="topImage" destination="Nea-6L-dQV" id="cUe-OT-cDJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ER7-ZR-x46" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="761" y="495"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="creep" width="3264" height="1836"/>
+    </resources>
 </document>
