@@ -22,6 +22,8 @@ class ViewController: UIViewController {
 
     @IBAction func switchScreenToNewControllerFile(sender: UIButton)
     {
+        
+        
         performSegueWithIdentifier("toNewFromMain", sender:sender)
     }
 

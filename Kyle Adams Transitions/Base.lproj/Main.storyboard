@@ -22,7 +22,7 @@
                                 <state key="normal" title="Change Your Screen"/>
                                 <connections>
                                     <action selector="switchScreenToNewControllerFile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lyo-Kl-2bj"/>
-                                    <segue destination="PHk-sH-jQ5" kind="show" identifier="toNewControllerFile" id="4NZ-Im-sOR"/>
+                                    <segue destination="PHk-sH-jQ5" kind="show" identifier="toNewFromMain" id="4NZ-Im-sOR"/>
                                 </connections>
                             </button>
                         </subviews>
