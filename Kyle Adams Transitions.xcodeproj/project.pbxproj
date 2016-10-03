@@ -12,6 +12,7 @@
 		1E7A976E1DA2965400070011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7A976C1DA2965400070011 /* Main.storyboard */; };
 		1E7A97701DA2965400070011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7A976F1DA2965400070011 /* Assets.xcassets */; };
 		1E7A97731DA2965400070011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7A97711DA2965400070011 /* LaunchScreen.storyboard */; };
+		1E7A977D1DA2999F00070011 /* NewControllerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7A977C1DA2999F00070011 /* NewControllerFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1E7A976F1DA2965400070011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E7A97721DA2965400070011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E7A97741DA2965400070011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E7A977C1DA2999F00070011 /* NewControllerFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewControllerFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		1E7A97671DA2965400070011 /* Kyle Adams Transitions */ = {
 			isa = PBXGroup;
 			children = (
-				1E7A97681DA2965400070011 /* AppDelegate.swift */,
-				1E7A976A1DA2965400070011 /* ViewController.swift */,
-				1E7A976C1DA2965400070011 /* Main.storyboard */,
+				1E7A977A1DA2988B00070011 /* Controller */,
+				1E7A977B1DA298A600070011 /* View */,
 				1E7A976F1DA2965400070011 /* Assets.xcassets */,
-				1E7A97711DA2965400070011 /* LaunchScreen.storyboard */,
 				1E7A97741DA2965400070011 /* Info.plist */,
 			);
 			path = "Kyle Adams Transitions";
+			sourceTree = "<group>";
+		};
+		1E7A977A1DA2988B00070011 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E7A97681DA2965400070011 /* AppDelegate.swift */,
+				1E7A976A1DA2965400070011 /* ViewController.swift */,
+				1E7A977C1DA2999F00070011 /* NewControllerFile.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1E7A977B1DA298A600070011 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E7A976C1DA2965400070011 /* Main.storyboard */,
+				1E7A97711DA2965400070011 /* LaunchScreen.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E7A976B1DA2965400070011 /* ViewController.swift in Sources */,
+				1E7A977D1DA2999F00070011 /* NewControllerFile.swift in Sources */,
 				1E7A97691DA2965400070011 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
